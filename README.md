@@ -2,6 +2,8 @@
 
 TeXas is a bot that can render LaTeX, solve equations, and create graphs.
 
+[Demo and overview of functionality](https://bots.thief.fyi/#TeXas)
+
 ### Requirements
 
  - Python
