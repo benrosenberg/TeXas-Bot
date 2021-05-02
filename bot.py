@@ -15,7 +15,7 @@ description = """TeXas is a bot that can render LaTeX and solve equations."""
 
 help_message = '```TeXas help \n----------------------\n latex: render LaTeX. Ex. latex \int_{-\infty}^\infty \\frac{1}{\sqrt{2\pi}} e^{-\\frac{x^2}{2}}\; \\text{d}x \n solve: solve expressions with the Giac API. see command "solve help" for more details\n graph: graphs using SymPy and matplotlib (kinda slow; please use "gnuplot" for faster/better graphs). Ex. graph x**2\n gnuplot: uses gnuplot to render a graph. Ex. "gnuplot x**2 -10 10" Remember to specify a range.```'
 
-solve_help_message = '```TeXas help: solve function\n----------------------\nThis command provides a solution using the Xcas/Giac backend. It\'s much more stable than the previous backend and can handle crazy calculations quickly since it\'s using C++ and not Python, which means it can go fast! I don\'t feel like writing up a whole ass help thing for example commands for Xcas since they\'re all pretty simple and intuitive; look Xcas/Giac up on DuckDuckGo if you want to check it out.```'
+solve_help_message = '```TeXas help: solve function\n----------------------\nThis command provides a solution using the Xcas/Giac backend. It\'s much more stable than the previous backend and can handle crazy calculations quickly since it\'s using C++ and not Python, which means it can go fast! I don\'t feel like writing up an entire description of example commands for Xcas since they\'re all pretty simple and intuitive; look Xcas/Giac up on DuckDuckGo if you want to check it out.```'
 
 inline_bot = discord.Client()
 
