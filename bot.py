@@ -2,12 +2,6 @@ import discord, asyncio
 from discord.ext import commands
 from discord.ext.commands import Bot
 import sys, subprocess, traceback, logging
-from dotenv import load_dotenv
-load_dotenv()
-import math
-import numpy as np
-import re, regex
-import json, csv
 from sympy import *
 x, y, z, t, a, b, c = symbols('x y z t a b c')
 
